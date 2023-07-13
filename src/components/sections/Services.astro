@@ -1,0 +1,37 @@
+---
+import Service from "../cards/Service.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="services">
+    <Container className="space-y-10 md:space-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <Title>
+                Features
+            </Title>
+            <Paragraph>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </Paragraph>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <Service title="Save Time" description="No need to spend hours crafting the perfect property description. Just fill in the details about your property, and our AI tool generates a high-quality description in seconds.">
+                <span slot="icon" class="text-5xl">
+                    ⏱️
+                </span>
+            </Service>
+            <Service title="Get Inspired" description="No need to spend hours crafting the perfect property description. Just fill in the details about your property, and our AI tool generates a high-quality description in seconds.">
+                <span slot="icon" class="text-5xl">
+                    👨‍💻
+                </span>
+            </Service>
+            <Service title="Iterative Editing" description="No need to spend hours crafting the perfect property description. Just fill in the details about your property, and our AI tool generates a high-quality description in seconds.">
+                <span slot="icon" class="text-5xl">
+                    ✍️
+                </span>
+            </Service>
+        </div>
+    </Container>
+</section>
