@@ -6,10 +6,10 @@ module.exports = {
 		extend: {
 			colors: {
 				body: "rgb(var(--color-bg))",
-				"box-bg": "rgb(var(--color-box))",
 				"box-shadow": "rgb(var(--box-sd))",
 				"box-border": "rgb(var(--box-border))",
-				primary: "rgb(251 113 133)",
+				primary: "#27272a",
+        darkPrimary: "#f4f4f5",
 				"heading-1": "rgb(var(--heading-1))",
 				"heading-2": "rgb(var(--heading-2))",
 				"heading-3": "rgb(var(--heading-3))",
